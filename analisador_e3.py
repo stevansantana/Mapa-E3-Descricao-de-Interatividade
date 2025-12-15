@@ -2,7 +2,7 @@ import xml.etree.ElementTree as ET
 from collections import defaultdict
 
 # ==============================================================================
-# 1. MAPAS DE IDS E INTERATIVIDADE (Mantidos os mapeamentos ricos do TCC)
+# 1. MAPAS DE IDS E INTERATIVIDADE 
 # ==============================================================================
 ID_MAPPING = {
     'floor': {
