@@ -120,7 +120,7 @@ def analyze_e3_map(xml_file_path: str) -> str:
         data = unique_elements[name]
         output += f"| {name} | {data['count']} | {data['interactivity']} |\n"
         
-    output += "\n*Nota: A contagem de 'Tiles' representa a área ocupada. Os IDs de extensão ('...') são ignorados na contagem de tiles para representar a área, conforme a lógica do seu TCC."
+    output += "\n*Nota: A contagem de 'Tiles' representa a área ocupada. Os IDs de extensão ('...') são ignorados na contagem de tiles para representar a área."
     
     return output
 
