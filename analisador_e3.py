@@ -1,3 +1,4 @@
+import os
 import xml.etree.ElementTree as ET
 from collections import defaultdict
 
@@ -126,7 +127,7 @@ def analyze_e3_map(xml_file_path: str) -> str:
 
 # --- Bloco de Execução ---
 if __name__ == '__main__':
-    mapa_path = 'map.xml' 
+    mapa_path = os.path.join('casa', 'map.xml') 
 
     print(f"\n--- INICIANDO ANÁLISE DO MAPA: {mapa_path} ---\n")
     
