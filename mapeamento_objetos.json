@@ -1,0 +1,196 @@
+{
+  "floor": {
+    "4.1": {
+      "nome": "Piso principal de madeira",
+      "interatividades": [
+        "Interatividade Exploratória (VR)",
+        "Feedback Multissensorial (VR)"
+      ],
+      "descricao_interatividade": "O piso de madeira permite a locomoção do usuário pelo ambiente virtual, oferecendo feedback visual e sonoro que reforça a textura e o material durante a exploração do espaço."
+    },
+    "4.0": {
+      "nome": "Piso secundário de areia",
+      "interatividades": [
+        "Interatividade Exploratória (VR)",
+        "Feedback Multissensorial (VR)"
+      ],
+      "descricao_interatividade": "O piso de areia influencia a experiência de locomoção, podendo apresentar sons específicos e alterações visuais que simulam o caminhar sobre um material irregular."
+    },
+    "2.0": {
+      "nome": "Piso de área externa de água",
+      "interatividades": [
+        "Interatividade Exploratória (VR)",
+        "Feedback Multissensorial (VR)"
+      ],
+      "descricao_interatividade": "A área com água permite a exploração visual do ambiente externo, fornecendo feedback sonoro e visual que simula a presença de um meio líquido."
+    }
+  },
+
+  "walls": {
+    "3.0": {
+      "nome": "Parede interna de tijolo",
+      "interatividades": [
+        "Interatividade Exploratória (VR)",
+        "Feedback Multissensorial (VR)"
+      ],
+      "descricao_interatividade": "A parede de tijolo atua como limite físico do ambiente virtual, contribuindo para a orientação espacial e oferecendo feedback visual que reforça sua materialidade."
+    },
+    "4.0": {
+      "nome": "Parede externa de vidro",
+      "interatividades": [
+        "Interatividade Exploratória (VR)",
+        "Feedback Multissensorial (VR)",
+        "Interatividade Preditiva (Feedforward)"
+      ],
+      "descricao_interatividade": "A parede de vidro permite a observação do ambiente externo, utilizando transparência e realces visuais para indicar limites físicos e possíveis interações."
+    }
+  },
+
+  "door_and_windows": {
+    "6.0": {
+      "nome": "Janela",
+      "interatividades": [
+        "Manipulação Direta (VR)",
+        "Interatividade Exploratória (VR)",
+        "Interatividade Preditiva (Feedforward)"
+      ],
+      "descricao_interatividade": "A janela pode ser manipulada diretamente, permitindo abertura ou fechamento, além de possibilitar a observação de áreas externas do ambiente virtual."
+    },
+    "7.1": {
+      "nome": "Porta fechada",
+      "interatividades": [
+        "Manipulação Direta (VR)",
+        "Interatividade Exploratória (VR)",
+        "Interatividade Preditiva (Feedforward)"
+      ],
+      "descricao_interatividade": "A porta fechada permite interação direta para abertura, com indicações visuais que antecipam a ação e possibilitam a exploração de novos ambientes."
+    },
+    "2.1": {
+      "nome": "Porta aberta",
+      "interatividades": [
+        "Interatividade Exploratória (VR)"
+      ],
+      "descricao_interatividade": "A porta aberta permite a circulação livre do usuário entre ambientes, favorecendo a exploração espacial sem necessidade de manipulação direta."
+    }
+  },
+
+  "furniture": {
+    "0.0": {
+      "nome": "Mesa de jantar com cadeiras",
+      "interatividades": [
+        "Manipulação Direta (VR)",
+        "Feedback Multissensorial (VR)",
+        "Interatividade Preditiva (Feedforward)"
+      ],
+      "descricao_interatividade": "A mesa de jantar e as cadeiras permitem interação direta, como aproximação e reposicionamento, com feedback visual e sonoro que indica possíveis ações."
+    },
+    "0.1": {
+      "nome": "Mesa de jantar com cadeiras",
+      "interatividades": [
+        "Manipulação Direta (VR)",
+        "Feedback Multissensorial (VR)",
+        "Interatividade Preditiva (Feedforward)"
+      ],
+      "descricao_interatividade": "Conjunto de mesa e cadeiras que possibilita manipulação direta e reforço da funcionalidade do espaço por meio de feedbacks visuais."
+    },
+    "1.0": {
+      "nome": "Fogão",
+      "interatividades": [
+        "Manipulação Direta (VR)",
+        "Feedback Multissensorial (VR)",
+        "Gamificação (VR)"
+      ],
+      "descricao_interatividade": "O fogão permite interação direta para simular seu uso, apresentando feedback visual e sonoro, podendo integrar atividades gamificadas no ambiente."
+    },
+    "1.1": {
+      "nome": "Fogão",
+      "interatividades": [
+        "Manipulação Direta (VR)",
+        "Feedback Multissensorial (VR)",
+        "Gamificação (VR)"
+      ],
+      "descricao_interatividade": "Elemento funcional que reforça a simulação de atividades domésticas por meio de interação direta e feedbacks multissensoriais."
+    },
+    "4.4": {
+      "nome": "Armário",
+      "interatividades": [
+        "Manipulação Direta (VR)",
+        "Interatividade Preditiva (Feedforward)"
+      ],
+      "descricao_interatividade": "O armário pode ser aberto ou fechado por manipulação direta, com indicações visuais que antecipam a possibilidade de interação."
+    },
+    "4.5": {
+      "nome": "Armário",
+      "interatividades": [
+        "Manipulação Direta (VR)",
+        "Interatividade Preditiva (Feedforward)"
+      ],
+      "descricao_interatividade": "Elemento de armazenamento que permite interação direta, reforçando a organização funcional do ambiente virtual."
+    },
+    "3.4": {
+      "nome": "Cama de casal",
+      "interatividades": [
+        "Manipulação Direta (VR)",
+        "Feedback Multissensorial (VR)"
+      ],
+      "descricao_interatividade": "A cama permite interação direta e reforça a percepção de conforto do ambiente por meio de feedback visual e sonoro."
+    },
+    "3.5": {
+      "nome": "Cama de casal",
+      "interatividades": [
+        "Manipulação Direta (VR)",
+        "Feedback Multissensorial (VR)"
+      ],
+      "descricao_interatividade": "Elemento de repouso que contribui para a ambientação do espaço, permitindo interação direta no contexto virtual."
+    }
+  },
+
+  "eletronics": {
+    "1.0": {
+      "nome": "Geladeira",
+      "interatividades": [
+        "Manipulação Direta (VR)",
+        "Feedback Multissensorial (VR)"
+      ],
+      "descricao_interatividade": "A geladeira permite interação direta para abertura e fechamento, apresentando feedback visual e sonoro que simula seu funcionamento."
+    },
+    "1.1": {
+      "nome": "Geladeira",
+      "interatividades": [
+        "Manipulação Direta (VR)",
+        "Feedback Multissensorial (VR)"
+      ],
+      "descricao_interatividade": "Elemento funcional que reforça a simulação de um ambiente doméstico por meio de feedbacks multissensoriais."
+    },
+    "2.1": {
+      "nome": "Lavatório",
+      "interatividades": [
+        "Manipulação Direta (VR)",
+        "Feedback Multissensorial (VR)"
+      ],
+      "descricao_interatividade": "O lavatório permite interação direta, com animações e sons que simulam o uso, reforçando a funcionalidade do ambiente."
+    }
+  },
+
+  "utensils": {
+    "2.3": {
+      "nome": "Vaso de planta",
+      "interatividades": [
+        "Manipulação Direta (VR)",
+        "Feedback Multissensorial (VR)",
+        "Interatividade Exploratória (VR)"
+      ],
+      "descricao_interatividade": "O vaso de planta pode ser observado, tocado ou reposicionado durante a exploração do ambiente, reforçando a ambientação por meio de feedback visual."
+    }
+  },
+
+  "persons": {
+    "1.0": {
+      "nome": "Posição inicial do personagem",
+      "interatividades": [
+        "Interatividade Corporal / Gestual (VR)"
+      ],
+      "descricao_interatividade": "Define a posição inicial do avatar do usuário no ambiente virtual, permitindo movimentação corporal e exploração do espaço."
+    }
+  }
+}
