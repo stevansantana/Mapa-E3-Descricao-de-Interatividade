@@ -43,7 +43,7 @@ def salvar_tabela_csv(dados, nome_arquivo="interatividade.csv"):
 
 
 if __name__ == "__main__":
-    caminho_mapa = "map.xml"
+    caminho_mapa = "mapas_E3/casa_primeiro_mapa/map.xml"
     caminho_mapeamento = "mapeamento_objetos.json"
 
     interacoes = gerar_interatividade(caminho_mapa, caminho_mapeamento)
